@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const developmentMnemonic = "junk junk junk junk junk junk junk junk junk junk junk junk";
+const developmentMnemonic = "use huge leisure aim hard inside smile siren negative test layer grief slam scan electric visual divide effort inner rain record van farm time";
 
 module.exports = {
   networks: {
@@ -8,7 +8,7 @@ module.exports = {
     migrations_directory: "./migrations",
     etp: {
       provider: () =>
-      new HDWalletProvider(developmentMnemonic, "https://localhost:8545"),
+      new HDWalletProvider(developmentMnemonic, "https://rpc.etpscan.xyz"),
       network_id: "*",
     },
   },

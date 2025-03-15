@@ -50,6 +50,7 @@
     "@truffle/hdwallet-provider": "^2.1.1",
     "truffle-blockscout-verify": "^1.0.2",
     "truffle-flatten": "^1.0.8",
-    "truffle-source-verify": "0.0.6"
+    "truffle-source-verify": "^0.0.6",
+    "yarn": "^1.22.22"
   }
 }
